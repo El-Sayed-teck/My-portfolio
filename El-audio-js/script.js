@@ -21,7 +21,6 @@ const pause = document.getElementById('pause');
 
 
    //Buttons with eventListener
-/*events 'playing' and 'ended' are for videos and audios */
 btn1.addEventListener('click', function(){
     audio1.play();
 
@@ -115,6 +114,7 @@ btn4.addEventListener('click', function(){
 
 });
 
+//Pause button
 pause.addEventListener('click', function(){
     audio1.pause();
     audio1.currentTime = 0;
@@ -127,4 +127,5 @@ pause.addEventListener('click', function(){
 
     audio4.pause();
     audio4.currentTime = 0;
+
 })
