@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(6, 14, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.audio-btns{
+    background: linear-gradient(to bottom left, #4274ff15,#4274ff15,rgba(138, 171, 255, 0.975),#022a521c, #022a521c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 85vh;
+    flex-direction: column;
+    border-radius: 5%;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+  
+}
+
+
+
+#btn-Audio1, #btn-Audio2, #btn-Audio3, #btn-Audio4, #pause{
+    background: linear-gradient(to bottom, #09549fce, rgba(36, 127, 255, 0));
+    color: rgba(245, 245, 245, 0.86);
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+    
+    
+}
+
+
+
+#btn-Audio1:hover, #btn-Audio2:hover, #btn-Audio3:hover, #btn-Audio4:hover, #pause:hover{
+    background-color: rgb(50, 187, 255);
+    color: rgb(255, 252, 87); 
+    width: 170px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: 10px 50px 10px rgba(5, 20, 83, 0.7);
+    font-size: 20px;
+   
+}
+
